@@ -24,3 +24,17 @@ footer{
 	background-size   :contain;
 	background-repeat :repeat-x;
 }
+
+section.background{
+	/*position: fixed;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	background-image: url(images/backimg.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	z-index: -2;*/
+	 /*no-repeat center center cover; */
+}
