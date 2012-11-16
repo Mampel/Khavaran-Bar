@@ -25,6 +25,14 @@ footer{
 	background-repeat :repeat-x;
 }
 
+footer p.copyright{
+	color: white;
+	text-align: center;
+	font-family: Tahoma;
+	font-size: 12px;
+	margin-top: 36px;
+}
+
 section.background{
 	/*position: fixed;
 	top: 0;
