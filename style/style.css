@@ -21,4 +21,21 @@ section.menu menu li:hover a {
 
 section.leftside header div.header {
 	background-color : #666;
+	font-family : "arial","arial", Helvetica, sans-serif;
+	color : #fff;
+	text-align : left;
+	padding-left : 15px;  
 }
+
+section.leftside header div.header h1 {
+	text-transform : uppercase;
+	font-size : 32px;
+	font-weight : bold; 
+	letter-spacing : 1px; 
+	text-shadow : 1px 0px 1px #fff;
+}
+
+section.leftside header div.header span {
+	text-transform : uppercase;
+	font-size : 13px;
+} 
