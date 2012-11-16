@@ -10,9 +10,10 @@ section.menu menu li {
 
 section.menu menu li a {
 	display : block; 
-	padding : 10px 10px 10px 40px;
+	padding : 10px 30px 10px 40px;
 	text-decoration : none;
 	color : #ccc;
+	text-align : right; 
 }
 
 section.menu menu li:hover a {
