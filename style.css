@@ -28,10 +28,13 @@ section.container section.leftside{
 	background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAA9JREFUeNpiYGBgmAkQYAAAngCaoMXLCwAAAABJRU5ErkJggg==');
 	background-repeat: repeat;
 	background-position: left top;
+	border-right: 1px solid #333;
 }
 
 section.container section.content-container{
-
+	width: 900px;
+	min-height: 800px;
+	border: 1px solid red;
 }
 
 footer{
