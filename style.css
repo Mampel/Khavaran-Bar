@@ -20,7 +20,13 @@ section.container{
 }
 
 section.container section.leftside{
-
+	top: 30px;
+	left: 0;
+	bottom: 0;
+	width: 100px;
+	background-image: url(images/bg_menu.png);
+	background-repeat: repeat;
+	background-position: left top;
 }
 
 section.container section.content-container{
