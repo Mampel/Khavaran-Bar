@@ -1,1 +1,20 @@
 div,section {border : 1px solid #000;}
+/************* Menu ************/
+section.menu  {
+	background-color : #666;
+}
+
+section.menu menu li {
+	padding : 2px;
+}
+
+section.menu menu li a {
+	display : block; 
+	padding : 10px 10px 10px 40px;
+	text-decoration : none;
+	color : #ccc;
+}
+
+section.menu menu li:hover a {
+	color : #fff;
+}
