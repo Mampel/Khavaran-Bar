@@ -20,11 +20,12 @@ section.container{
 }
 
 section.container section.leftside{
-	top: 30px;
+	top: 0;
 	left: 0;
 	bottom: 0;
-	width: 100px;
-	background-image: url(images/bg_menu.png);
+	width: 200px;
+	/*background-image: url(images/bg_menu.png);*/
+	background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAA9JREFUeNpiYGBgmAkQYAAAngCaoMXLCwAAAABJRU5ErkJggg==');
 	background-repeat: repeat;
 	background-position: left top;
 }
