@@ -18,3 +18,7 @@ section.menu menu li a {
 section.menu menu li:hover a {
 	color : #fff;
 }
+
+section.leftside header div.header {
+	background-color : #666;
+}
