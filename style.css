@@ -252,6 +252,7 @@ section.main-holder article.content-holder div.content5 #contactus_form input {
 section.main-holder article.content-holder div.content4 #inquiry_form input:focus,
 section.main-holder article.content-holder div.content5 #contactus_form input:focus {
 	background-color : #222; 
+	box-shadow: 0px 0px 5px 1px #ccc;
 }
 
 section.main-holder article.content-holder div.content4 #inquiry_form textarea,
@@ -263,7 +264,8 @@ section.main-holder article.content-holder div.content5 #contactus_form textarea
 
 section.main-holder article.content-holder div.content4 #inquiry_form textarea:focus,
 section.main-holder article.content-holder div.content5 #contactus_form textarea:focus {
-	background-color : #222; 
+	background-color : #222;
+	box-shadow: 0px 0px 5px 1px #ccc; 
 }
 
 section.main-holder article.content-holder div.content4 #inquiry_form input#btn_submit,
