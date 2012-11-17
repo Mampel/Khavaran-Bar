@@ -75,6 +75,7 @@ section.main-holder > article.content-holder div{
 	/*opacity: 1;*/
 	margin: 10px 0 0;
 	border: 1px solid blue;
+	background-color: #aaa;
 	/*position: absolute;
 	top: 0;
 	left: 0;*/
