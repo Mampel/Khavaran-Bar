@@ -183,11 +183,14 @@ section.background div.backimg{
 }
 
 /********** inquiry form ************/
-section.main-holder article.content-holder div.content4 {
+section.main-holder article.content-holder div.content4,
+section.main-holder article.content-holder div.content5 {
 	color : #FFF;
 	font-family : Arial, Helvetica, sans-serif;
 }
-section.main-holder article.content-holder div.content4 h1 {
+
+section.main-holder article.content-holder div.content4 h1,
+section.main-holder article.content-holder div.content5 h1 {
 	display : block;
 	line-height : 30px;
 	padding-left : 5px;
@@ -230,3 +233,5 @@ section.main-holder article.content-holder div.content4 #inquiry_form input#btn_
 	color : #111;
 	border-radius : 4px; 
 }
+
+/********** Contact-Us form ************/
