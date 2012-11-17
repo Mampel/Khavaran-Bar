@@ -47,7 +47,7 @@ section.container section.leftside > nav > menu > li{
 
 section.container section.leftside > nav > menu > li > a{
 	display: block;
-	width: 115px;
+	width: auto;
 	height: 35px;
 	line-height: 30px;
 	text-align: center;
@@ -57,6 +57,11 @@ section.container section.leftside > nav > menu > li > a{
 	text-decoration: none;
 	border: 1px solid red;
 	/*z-index: 1000;*/
+}
+
+section.container section.leftside > nav > menu > li > a:hover{
+	/*background-color: rgba(20,20,20,.5);*/
+	color: rgba(200,200,200,.5);
 }
 
 section.container section.content-container{
