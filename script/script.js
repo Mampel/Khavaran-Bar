@@ -30,6 +30,8 @@ $(function(){
 		$(this).animate({
 			left:0
 		},500,'easeOutExpo');
+	}).click(function(){
+		// $(this).addClass('active');
 	});
 
 	// setTimeout(function(){
@@ -76,34 +78,34 @@ $(function(){
 		img.eq(currentimg).animate({
 			'top':'200px',
 			'opacity':'0'
-		},500,easeout,function(){
+		},300,easeout,function(){
 			$(this).css('top','-280px');
 		});
 
 		img.eq(n).animate({
 			'top':'0',
 			'opacity':'1'
-		},1000,easein);	
+		},600,easein);	
 
 		// animate(img,currentimg,n,280);
 		// animate(content,currentimg,n,-380);
 
-		content_page.eq(currentimg).css({
-			'display':'none',
+		content_page.eq(currentimg).animate({
+			'top':'-400px',
 			'opacity':'0'
-		}).animate({
-			'top':'-400px'
-		},500,easeout,function(){
-			$(this).css('top','400px');
+		},300,easeout,function(){
+			$(this).css({
+				'top':'400px',
+				'display':'none'
+			});
 		});
 
 		content_page.eq(n).css({
-			'display':'block',
-			'opacity':'1'
+			'display':'block'
 		}).animate({
 			'top':'0',
 			'opacity':'1'
-		},1000,easein);
+		},600,easein);
 		currentimg = n;
 	}
 
