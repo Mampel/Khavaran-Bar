@@ -60,6 +60,14 @@ section.main-holder > figure.img-holder img{
 	left: 0;
 }
 
+section.main-holder > article.content-holder{
+	width: 570px;
+	min-height: 340px;
+	/*overflow: hidden;*/
+	border: 2px solid white;
+	position: relative;
+}
+
 footer{
 	bottom: 0;
 	left: 0;
