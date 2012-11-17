@@ -209,10 +209,17 @@ section.main-holder article.content-holder div.content4 form#inquiry_form div {
 }
 
 section.main-holder article.content-holder div.content4 #inquiry_form p {
+	display : block;
 	text-align : right; 
 	padding: 5px 80px 15px 5px;
 }
 
 section.main-holder article.content-holder div.content4 #inquiry_form input {
-	width : 300px; 
+	width : 300px;
+	border-radius : 4px; 
+}
+
+section.main-holder article.content-holder div.content4 #inquiry_form input#btn_submit,
+section.main-holder article.content-holder div.content4 #inquiry_form input#btn_reset {
+	width : 80px;
 }
