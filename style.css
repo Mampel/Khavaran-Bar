@@ -100,14 +100,13 @@ section.container section.leftside > nav > menu > li > a:hover{
 section.container section.content-container{
 	width: auto;
 	min-height: 630px;
-	border: 1px solid red;
 }
 
 section.container section.content-container section.main-holder{
 	width: 700px;
 	min-height: 500px;
 	margin: 70px 0 0 50px;
-	border: 1px solid white;
+	/*border: 1px solid white;*/
 	/*display: none;*/
 	/*opacity: 0;*/ /*only for Load Effect*/
 }
