@@ -116,7 +116,7 @@ section.main-holder > figure.img-holder img{
 }
 
 section.main-holder > article.content-holder{
-	width: 570px;
+	width: 600px;
 	min-height: 340px;
 	/*overflow: hidden;*/
 	margin: 20px 0 0;
@@ -125,7 +125,7 @@ section.main-holder > article.content-holder{
 }
 
 section.main-holder > article.content-holder div{
-	width: 570px;
+	width: auto;
 	min-height: 340px;
 	/*opacity: 1;*/
 	margin: 10px 0 0;
