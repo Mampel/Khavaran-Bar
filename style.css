@@ -30,6 +30,31 @@ section.container section.leftside{
 	border-right: 1px solid #333;
 }
 
+section.container section.leftside > nav{
+}
+
+section.container section.leftside > nav > menu{
+	list-style-type: none;
+}
+
+section.container section.leftside > nav > menu > li{
+	margin-right: 5px;
+}
+
+section.container section.leftside > nav > menu > li > a{
+	display: block;
+	width: 70px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	color: #FFF;
+	/*background-color: blue;*/
+	border-radius: 15px;
+	text-decoration: none;
+	/*border: 1px solid red;*/
+	/*z-index: 1000;*/
+}
+
 section.container section.content-container{
 	width: auto;
 	min-height: 630px;
