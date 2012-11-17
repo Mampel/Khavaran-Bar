@@ -179,3 +179,22 @@ section.background div.backimg{
 	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/backimg.jpg',sizingMethod='scale');
 	z-index: -2;
 }
+
+/********** inquiry form ************/
+section.main-holder article.content-holder div.content3 h1 {
+	display : block;
+	color : #FFF;
+	font-family : Arial, Helvetica, sans-serif;
+	font-size : 30px;  
+	line-height : 30px;
+	padding-left : 5px;  
+}
+
+section.main-holder article.content-holder div.content3 p {
+	display : block;
+	color : #fff;
+	font-family : Arial, Helvetica, sans-serif;
+	font-size : 16px;
+	line-height : 16px;
+	padding-left : 5px;    
+}
