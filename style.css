@@ -39,8 +39,17 @@ section.container section.content-container{
 section.container section.content-container section.main-holder{
 	width: 700px;
 	min-height: 500px;
-	margin:100px 0 0 50px;
+	margin: 30px 0 0 50px;
 	border: 1px solid white;
+}
+
+section.main-holder > figure.img-holder{
+	width: 250px;
+	min-height: 150px;
+	margin: 50px 0 0 50px;
+	/*overflow: hidden;*/
+	/*border: 1px solid white;*/
+	position: relative;
 }
 
 footer{
