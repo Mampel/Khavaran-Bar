@@ -59,7 +59,7 @@ section.container section.leftside > nav > menu{
 }
 
 section.container section.leftside > nav > menu > li{
-	margin-bottom: 5px;
+	margin-bottom: 12px;
 	position: relative;
 	left: -300px;
 }
@@ -67,9 +67,10 @@ section.container section.leftside > nav > menu > li{
 section.container section.leftside > nav > menu > li > a{
 	display: block;
 	width: auto;
-	height: 35px;
-	line-height: 30px;
+	height: 25px;
+	line-height: 25px;
 	text-align: center;
+	font-weight: bold;
 	color: #CCC;
 	/*background-color: blue;*/
 	border-radius: 15px;
