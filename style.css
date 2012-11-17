@@ -52,6 +52,14 @@ section.main-holder > figure.img-holder{
 	position: relative;
 }
 
+section.main-holder > figure.img-holder img{
+	opacity: .4;
+	border: 2px solid white;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
 footer{
 	bottom: 0;
 	left: 0;
