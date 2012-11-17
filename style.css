@@ -148,6 +148,7 @@ section.main-holder > article.content-holder > div{
 	background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAA9JREFUeNpiYGBgmAkQYAAAngCaoMXLCwAAAABJRU5ErkJggg==');
 	background-repeat: repeat;
 	background-position: left top;
+	background-color: rgba(15, 15, 15, 0.7);
 	/*position: absolute;
 	top: 0;
 	left: 0;*/
