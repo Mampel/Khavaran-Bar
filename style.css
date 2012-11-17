@@ -47,16 +47,17 @@ section.main-holder > figure.img-holder{
 	width: 250px;
 	min-height: 150px;
 	/*overflow: hidden;*/
-	/*border: 1px solid white;*/
+	border: 2px solid white;
 	position: relative;
 }
 
 section.main-holder > figure.img-holder img{
-	opacity: .4;
-	border: 2px solid white;
-	position: absolute;
+	/*opacity: 1;*/
+	border: 1px solid green;
+	/*position: absolute;
 	top: 0;
-	left: 0;
+	left: 0;*/
+	margin: 10px 0 0;
 }
 
 section.main-holder > article.content-holder{
@@ -69,10 +70,14 @@ section.main-holder > article.content-holder{
 }
 
 section.main-holder > article.content-holder div{
-	opacity: 1;
-	position: absolute;
+	width: 570px;
+	min-height: 340px;
+	/*opacity: 1;*/
+	margin: 10px 0 0;
+	border: 1px solid blue;
+	/*position: absolute;
 	top: 0;
-	left: 0;
+	left: 0;*/
 }
 
 footer{
