@@ -63,7 +63,7 @@ section.container section.leftside{
 	background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAA9JREFUeNpiYGBgmAkQYAAAngCaoMXLCwAAAABJRU5ErkJggg==');
 	background-repeat: repeat;
 	background-position: left top;
-	border-right: 1px solid #333;
+	border-right: 1px solid #444;
 }
 
 section.container section.leftside > nav{
@@ -129,7 +129,7 @@ section.main-holder > figure.img-holder img{
 	border-radius: 10px;
 	opacity: 0;
 	position: absolute;
-	top: -280px;
+	top: -50px;
 	left: 0;
 }
 
@@ -159,7 +159,7 @@ section.main-holder > article.content-holder > div{
 	display: none;
 	opacity: 0;
 	position: absolute;
-	top: 400px;
+	top: 100px;
 	left: 0;
 }
 
