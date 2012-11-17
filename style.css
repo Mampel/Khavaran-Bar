@@ -42,7 +42,7 @@ section.container section.leftside > nav > menu{
 section.container section.leftside > nav > menu > li{
 	margin-bottom: 5px;
 	position: relative;
-	left: -200px;
+	left: -300px;
 }
 
 section.container section.leftside > nav > menu > li > a{
