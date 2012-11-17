@@ -51,7 +51,7 @@ section.container section.leftside > nav > menu > li > a{
 	height: 35px;
 	line-height: 30px;
 	text-align: center;
-	color: #FFF;
+	color: #CCC;
 	/*background-color: blue;*/
 	border-radius: 15px;
 	text-decoration: none;
@@ -61,13 +61,14 @@ section.container section.leftside > nav > menu > li > a{
 
 section.container section.leftside > nav > menu > li > a:hover{
 	/*background-color: rgba(20,20,20,.5);*/
-	color: rgba(200,200,200,.5);
+	color: #FFF;
 }
 
 section.container section.content-container{
 	width: auto;
 	min-height: 630px;
 	border: 1px solid red;
+	opacity: 0; /*only for Load Effect*/
 }
 
 section.container section.content-container section.main-holder{
