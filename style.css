@@ -20,7 +20,7 @@ section.container{
 
 section.container div.logo{
 	width: 300px;
-	height: 150px;
+	height: 125px;
 	position: fixed;
 	top: 50px;
 	right: 50px;
@@ -37,7 +37,7 @@ section.container div.logo > h1{
 	/*white-space: nowrap;*/
 	text-align: center;
 	color: #FFF;
-	margin-top: 15px;
+	margin-top: 25px;
 	font-size: 42px;
 }
 
