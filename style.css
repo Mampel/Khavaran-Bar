@@ -124,7 +124,7 @@ section.main-holder > article.content-holder{
 	position: relative;
 }
 
-section.main-holder > article.content-holder div{
+section.main-holder > article.content-holder > div{
 	width: auto;
 	min-height: 340px;
 	/*opacity: 1;*/
