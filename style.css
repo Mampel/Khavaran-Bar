@@ -181,19 +181,20 @@ section.background div.backimg{
 }
 
 /********** inquiry form ************/
-section.main-holder article.content-holder div.content3 h1 {
-	display : block;
+section.main-holder article.content-holder div.content3 {
 	color : #FFF;
 	font-family : Arial, Helvetica, sans-serif;
-	font-size : 30px;  
+}
+section.main-holder article.content-holder div.content3 h1 {
+	display : block;
 	line-height : 30px;
-	padding-left : 5px;  
+	padding-left : 5px;
+	font-size : 30px; 
+	font-weight : bold;    
 }
 
 section.main-holder article.content-holder div.content3 p {
 	display : block;
-	color : #fff;
-	font-family : Arial, Helvetica, sans-serif;
 	font-size : 16px;
 	line-height : 16px;
 	padding-left : 5px;    
