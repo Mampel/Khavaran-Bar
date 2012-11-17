@@ -28,6 +28,11 @@ section.container div.logo{
 	background-color: red;
 }
 
+section.container div.logo > h1{
+	text-indent: 50000px;
+	white-space: nowrap;
+}
+
 section.container section.leftside{
 	top: 0;
 	left: 0;
