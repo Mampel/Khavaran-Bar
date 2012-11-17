@@ -189,11 +189,14 @@ section.background div.backimg{
 }
 
 /********** inquiry form ************/
-section.main-holder article.content-holder div.content4 {
+section.main-holder article.content-holder div.content4,
+section.main-holder article.content-holder div.content5 {
 	color : #FFF;
 	font-family : Arial, Helvetica, sans-serif;
 }
-section.main-holder article.content-holder div.content4 h1 {
+
+section.main-holder article.content-holder div.content4 h1,
+section.main-holder article.content-holder div.content5 h1 {
 	display : block;
 	line-height : 30px;
 	padding-left : 5px;
@@ -222,10 +225,19 @@ section.main-holder article.content-holder div.content4 #inquiry_form p {
 
 section.main-holder article.content-holder div.content4 #inquiry_form input {
 	width : 300px;
-	border-radius : 4px; 
+	border-radius : 4px;
+	color : #fff; 
+}
+
+section.main-holder article.content-holder div.content4 #inquiry_form input:focus {
+	background-color : #999; 
 }
 
 section.main-holder article.content-holder div.content4 #inquiry_form input#btn_submit,
 section.main-holder article.content-holder div.content4 #inquiry_form input#btn_reset {
 	width : 80px;
+	color : #111;
+	border-radius : 4px; 
 }
+
+/********** Contact-Us form ************/
