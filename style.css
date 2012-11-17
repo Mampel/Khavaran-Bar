@@ -181,12 +181,21 @@ footer{
 }
 
 footer p.copyright{
-	color: white;
+	color: #FFF;
 	text-align: center;
 	font-family: Tahoma;
 	font-size: 12px;
 	text-shadow: 0 1px 15px #FFF;
 	margin-top: 25px;
+}
+
+footer p.copyright a{
+	text-decoration: none;
+	color: #FFF;
+}
+
+footer p.copyright a:hover{
+	text-decoration: underline;
 }
 
 section.background{
