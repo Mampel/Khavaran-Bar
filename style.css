@@ -241,3 +241,12 @@ section.main-holder article.content-holder div.content4 #inquiry_form input#btn_
 }
 
 /********** Contact-Us form ************/
+section.main-holder article.content-holder div.content5 p {
+	font-size : 14px;
+	line-height : 14px;
+	padding-left : 5px; 
+}
+
+section.main-holder article.content-holder div.content5 p span {
+	font-weight : bold; 
+}
