@@ -21,10 +21,14 @@ section.container{
 section.container div.logo{
 	width: 300px;
 	height: 150px;
-	border: 1px solid red;
 	position: fixed;
 	top: 50px;
 	right: 50px;
+	background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAA9JREFUeNpiYGBgmAkQYAAAngCaoMXLCwAAAABJRU5ErkJggg==');
+	background-repeat: repeat;
+	background-position: left top;
+	border: 1px solid #444;
+	border-radius: 10px;
 	/*opacity: 0;*/
 }
 
