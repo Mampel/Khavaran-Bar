@@ -20,7 +20,7 @@ section.container{
 
 section.container div.logo{
 	width: 300px;
-	height: 150px;
+	height: 125px;
 	position: fixed;
 	top: 50px;
 	right: 50px;
@@ -37,7 +37,7 @@ section.container div.logo > h1{
 	/*white-space: nowrap;*/
 	text-align: center;
 	color: #FFF;
-	margin-top: 15px;
+	margin-top: 25px;
 	font-size: 42px;
 }
 
@@ -87,6 +87,7 @@ section.container section.leftside > nav > menu > li > a{
 	/*background-color: blue;*/
 	border-radius: 15px;
 	text-decoration: none;
+	text-transform: uppercase;
 	/*border: 1px solid red;*/
 	/*z-index: 1000;*/
 }
@@ -129,11 +130,10 @@ section.main-holder > figure.img-holder img{
 }
 
 section.main-holder > article.content-holder{
-	width: 600px;
+	width: 640px;
 	min-height: 340px;
 	/*overflow: hidden;*/
 	margin: 20px 0 0;
-	border: 2px solid white;
 	position: relative;
 }
 
@@ -141,11 +141,13 @@ section.main-holder > article.content-holder > div{
 	width: auto;
 	/*opacity: 1;*/
 	margin: 10px 0 0;
+	padding: 0 20px;
 	border: 1px solid #444;
 	border-radius: 10px;
 	background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAA9JREFUeNpiYGBgmAkQYAAAngCaoMXLCwAAAABJRU5ErkJggg==');
 	background-repeat: repeat;
 	background-position: left top;
+	background-color: rgba(15, 15, 15, 0.7);
 	/*position: absolute;
 	top: 0;
 	left: 0;*/
@@ -290,7 +292,7 @@ section.main-holder article.content-holder div.content5 p span {
 
 section.main-holder article.content-holder div.content5 div.gmap iframe {
 	border-radius: 3px;
-	opacity : 0.8;
+	opacity : 0.9;
 }
 section.main-holder article.content-holder div.content5 div.gmap iframe:hover {
 	opacity : 1;
