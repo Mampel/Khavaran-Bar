@@ -33,8 +33,20 @@ section.container div.logo{
 }
 
 section.container div.logo > h1{
-	text-indent: 50000px;
-	white-space: nowrap;
+	/*text-indent: 50000px;*/
+	/*white-space: nowrap;*/
+	text-align: center;
+	color: #FFF;
+	margin-top: 15px;
+	font-size: 42px;
+}
+
+section.container div.logo > p{
+	/*text-indent: 50000px;*/
+	/*white-space: nowrap;*/
+	text-align: center;
+	color: white;
+	margin-top: 10px;
 }
 
 section.container section.leftside{
@@ -51,7 +63,7 @@ section.container section.leftside{
 
 section.container section.leftside > nav{
 	margin: 150px 0 0;
-	border: 1px solid red;
+	/*border: 1px solid red;*/
 }
 
 section.container section.leftside > nav > menu{
@@ -59,7 +71,7 @@ section.container section.leftside > nav > menu{
 }
 
 section.container section.leftside > nav > menu > li{
-	margin-bottom: 5px;
+	margin-bottom: 12px;
 	position: relative;
 	left: -300px;
 }
@@ -67,14 +79,15 @@ section.container section.leftside > nav > menu > li{
 section.container section.leftside > nav > menu > li > a{
 	display: block;
 	width: auto;
-	height: 35px;
-	line-height: 30px;
-	text-align: center;
+	height: 25px;
+	line-height: 25px;
+	padding-left: 50px;
+	font-weight: bold;
 	color: #CCC;
 	/*background-color: blue;*/
 	border-radius: 15px;
 	text-decoration: none;
-	border: 1px solid red;
+	/*border: 1px solid red;*/
 	/*z-index: 1000;*/
 }
 
