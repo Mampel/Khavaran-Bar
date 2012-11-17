@@ -260,3 +260,11 @@ section.main-holder article.content-holder div.content5 p {
 section.main-holder article.content-holder div.content5 p span {
 	font-weight : bold; 
 }
+
+section.main-holder article.content-holder div.content5 div.gmap iframe {
+	border-radius: 3px;
+	opacity : 0.8;
+}
+section.main-holder article.content-holder div.content5 div.gmap iframe:hover {
+	opacity : 1;
+}
