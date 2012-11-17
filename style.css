@@ -133,7 +133,6 @@ section.main-holder > article.content-holder{
 	min-height: 340px;
 	/*overflow: hidden;*/
 	margin: 20px 0 0;
-	border: 2px solid white;
 	position: relative;
 }
 
