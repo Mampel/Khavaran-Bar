@@ -139,7 +139,6 @@ section.main-holder > article.content-holder{
 
 section.main-holder > article.content-holder > div{
 	width: auto;
-	min-height: 340px;
 	/*opacity: 1;*/
 	margin: 10px 0 0;
 	padding: 0 20px;
@@ -204,6 +203,7 @@ section.background div.backimg{
 }
 
 /********** inquiry form ************/
+section.main-holder article.content-holder div.content1,
 section.main-holder article.content-holder div.content2,
 section.main-holder article.content-holder div.content3,
 section.main-holder article.content-holder div.content4,
@@ -223,6 +223,7 @@ section.main-holder article.content-holder div.content5 h1 {
 	font-weight : bold;    
 }
 
+section.main-holder article.content-holder div.content1 p,
 section.main-holder article.content-holder div.content2 p,
 section.main-holder article.content-holder div.content3 p,
 section.main-holder article.content-holder div.content4 p {
@@ -281,6 +282,7 @@ section.main-holder article.content-holder div.content5 p {
 	padding-left : 5px; 
 }
 
+section.main-holder article.content-holder div.content1 p span,
 section.main-holder article.content-holder div.content2 p span,
 section.main-holder article.content-holder div.content3 p span,
 section.main-holder article.content-holder div.content4 p span,
