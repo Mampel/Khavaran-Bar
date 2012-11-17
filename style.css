@@ -18,6 +18,16 @@ section.container{
 	padding: 50px 0 100px 0;
 }
 
+section.container div.logo{
+	width: 300px;
+	height: 150px;
+	border: 1px solid red;
+	position: fixed;
+	top: 50px;
+	right: 50px;
+	background-color: red;
+}
+
 section.container section.leftside{
 	top: 0;
 	left: 0;
