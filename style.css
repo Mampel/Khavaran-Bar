@@ -203,12 +203,16 @@ section.background div.backimg{
 }
 
 /********** inquiry form ************/
+section.main-holder article.content-holder div.content2,
+section.main-holder article.content-holder div.content3,
 section.main-holder article.content-holder div.content4,
 section.main-holder article.content-holder div.content5 {
 	color : #FFF;
 	font-family : Arial, Helvetica, sans-serif;
 }
 
+section.main-holder article.content-holder div.content2 h1,
+section.main-holder article.content-holder div.content3 h1,
 section.main-holder article.content-holder div.content4 h1,
 section.main-holder article.content-holder div.content5 h1 {
 	display : block;
@@ -218,11 +222,16 @@ section.main-holder article.content-holder div.content5 h1 {
 	font-weight : bold;    
 }
 
+section.main-holder article.content-holder div.content2 p,
+section.main-holder article.content-holder div.content3 p,
 section.main-holder article.content-holder div.content4 p {
 	display : block;
-	font-size : 16px;
-	line-height : 16px;
-	padding-left : 5px;    
+	font-size : 15px;
+	line-height : 15px;
+	padding-left : 5px;  
+	padding-right : 7px;
+	padding-bottom : 15px; 
+	text-align: justify;  
 }
 
 section.main-holder article.content-holder div.content4 #inquiry_form p,
@@ -271,6 +280,9 @@ section.main-holder article.content-holder div.content5 p {
 	padding-left : 5px; 
 }
 
+section.main-holder article.content-holder div.content2 p span,
+section.main-holder article.content-holder div.content3 p span,
+section.main-holder article.content-holder div.content4 p span,
 section.main-holder article.content-holder div.content5 p span {
 	font-weight : bold; 
 }
