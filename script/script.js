@@ -10,17 +10,17 @@ $(function(){
         var that = this;
 		setTimeout(function(){
 			$(that).animate({
-				left:'30px'	
+				left:0	
 			},due,'easeOutBack');
 		},delay);
 		delay += step;
     }).mouseover(function(){
 		$(this).animate({
-				left:50
+				left:20
 			},200,'easeOutExpo');
 	}).mouseout(function(){
 		$(this).animate({
-				left:30
+				left:0
 			},500,'easeOutExpo');
 	});
 
