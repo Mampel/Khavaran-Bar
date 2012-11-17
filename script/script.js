@@ -1,6 +1,7 @@
 $(function(){
 	
 	var li = $('section.container section.leftside > nav > menu > li'),
+		content = $('section.container section.content-container'),
 		due = 800,
 		delay = 200,
 		step = 300;
@@ -24,6 +25,10 @@ $(function(){
 			},500,'easeOutExpo');
 	});
 
-
+	setTimeout(function(){
+		content.animate({
+			opacity:1
+		},1400);
+	},2200);
 	
 });
