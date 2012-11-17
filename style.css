@@ -211,30 +211,40 @@ section.main-holder article.content-holder div.content4 p {
 	padding-left : 5px;    
 }
 
-section.main-holder article.content-holder div.content4 form#inquiry_form div {
-	min-height	 : 35px;
-	line-height  : 35px;
-	text-align : center; 
-}
-
-section.main-holder article.content-holder div.content4 #inquiry_form p {
+section.main-holder article.content-holder div.content4 #inquiry_form p,
+section.main-holder article.content-holder div.content5 #contactus_form p {
 	display : block;
 	text-align : right; 
-	padding: 5px 80px 15px 5px;
+	padding: 5px 155px 15px 5px;
 }
 
-section.main-holder article.content-holder div.content4 #inquiry_form input {
+section.main-holder article.content-holder div.content4 #inquiry_form input,
+section.main-holder article.content-holder div.content5 #contactus_form input {
 	width : 300px;
 	border-radius : 4px;
 	color : #fff; 
 }
 
-section.main-holder article.content-holder div.content4 #inquiry_form input:focus {
+section.main-holder article.content-holder div.content4 #inquiry_form input:focus,
+section.main-holder article.content-holder div.content5 #contactus_form input:focus {
+	background-color : #999; 
+}
+
+section.main-holder article.content-holder div.content4 #inquiry_form textarea,
+section.main-holder article.content-holder div.content5 #contactus_form textarea {
+	width : 300px;
+	border-radius : 4px;
+	color : #fff; 
+}
+
+section.main-holder article.content-holder div.content4 #inquiry_form textarea:focus,
+section.main-holder article.content-holder div.content5 #contactus_form textarea:focus {
 	background-color : #999; 
 }
 
 section.main-holder article.content-holder div.content4 #inquiry_form input#btn_submit,
-section.main-holder article.content-holder div.content4 #inquiry_form input#btn_reset {
+section.main-holder article.content-holder div.content4 #inquiry_form input#btn_reset,
+section.main-holder article.content-holder div.content5 #contactus_form input#btn_send  {
 	width : 80px;
 	color : #111;
 	border-radius : 4px; 
