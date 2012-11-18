@@ -262,11 +262,11 @@ section.background div.noise{
 	z-index: -1;
 }
 
-section.background div.backimg{
-	top: 0;
+section.background div.backimg{ 
+	top: 0; 
 	left: 0;
-	bottom: 0;
-	right: 0;
+	bottom: 0; 
+	right: 0; 
 	z-index: -2;
 }
 
@@ -275,7 +275,7 @@ section.background div.backimg.blue{
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: cover;
-	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/backimg.jpg',sizingMethod='scale');
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/backimg-b.jpg',sizingMethod='scale');
 }
 
 section.background div.backimg.red{
@@ -283,7 +283,7 @@ section.background div.backimg.red{
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: cover;
-	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/backimg.jpg',sizingMethod='scale');
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/backimg-r.jpg',sizingMethod='scale');
 }
 
 /********** inquiry form ************/
