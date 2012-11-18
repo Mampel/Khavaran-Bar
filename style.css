@@ -135,6 +135,7 @@ section.main-holder > figure.img-holder img{
 
 section.main-holder > figure.img-holder img:first-child{
 	opacity: 1;
+	 -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
 	top: 0;
 }
 
