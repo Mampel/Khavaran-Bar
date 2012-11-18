@@ -185,6 +185,29 @@ footer{
 	z-index: 100;
 }
 
+footer div.template{
+	border: 1px solid black;
+	top: 22px;
+	left: 15px;
+}
+
+footer div.template span{
+	display: block; 
+	width: 20px; 
+	height: 20px; 
+	float: left;
+	margin-left: 5px;
+	border-radius: 5px;
+}
+
+footer div.template span.blue{
+	background-color: blue;
+}
+
+footer div.template span.red{
+	background-color: red;
+}
+
 footer p.copyright{
 	color: #FFF;
 	text-align: center;
