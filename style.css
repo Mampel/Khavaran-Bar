@@ -20,6 +20,7 @@ header{
 }
 
 section.container{
+	margin: 0 0 0 250px;
 	padding: 50px 0 100px 0;
 }
 
@@ -216,7 +217,7 @@ section.background div.backimg{
 	left: 0;
 	bottom: 0;
 	right: 0;
-	background-image: url(images/backimg.jpg);
+	background-image: url(images/backimg1.jpg);
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: cover;
