@@ -95,7 +95,6 @@ section.container section.leftside > nav > menu > li > a{
 	padding-left: 50px;
 	font-weight: bold;
 	color: #CCC;
-	/*background-color: blue;*/
 	border-radius: 15px;
 	-webkit-border-radius: 15px;
 	-moz-border-radius: 15px;
@@ -104,7 +103,6 @@ section.container section.leftside > nav > menu > li > a{
 	-khtml-border-radius: 15px;
 	text-decoration: none;
 	text-transform: uppercase;
-	/*border: 1px solid red;*/
 	/*z-index: 1000;*/
 }
 
@@ -401,11 +399,11 @@ section.main-holder article.content-holder div.content5 p span {
 
 section.main-holder article.content-holder div.content5 div.gmap iframe {
 	border-radius: 3px;
-	-webkit-border-radius: 4px;
-	-moz-border-radius: 4px;
-	-o-border-radius: 4px;
-	-ms-border-radius: 4px;
-	-khtml-border-radius: 4px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	-o-border-radius: 3px;
+	-ms-border-radius: 3px;
+	-khtml-border-radius: 3px;
 	opacity : 0.9;
 }
 section.main-holder article.content-holder div.content5 div.gmap iframe:hover {
