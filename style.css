@@ -41,6 +41,8 @@ section.container div.logo{
 	-ms-border-radius: 10px;
 	-khtml-border-radius: 10px;
 	opacity: 0;
+	filter: alpha(opacity=0);  /* iE 5-7 */
+	 -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)"; /* iE 8 */
 }
 
 section.container div.logo > h1{
@@ -121,6 +123,8 @@ section.container section.content-container section.main-holder{
 	/*border: 1px solid white;*/
 	/*display: none;*/
 	opacity: 0; /*only for Load Effect*/
+	filter: alpha(opacity=0);  /* iE 5-7 */
+	 -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)"; /* iE 8 */
 }
 
 section.main-holder > figure.img-holder{
