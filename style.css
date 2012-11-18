@@ -104,12 +104,10 @@ section.container section.leftside > nav > menu > li > a:hover{
 
 section.container section.content-container{
 	width: auto;
-	min-height: 630px;
 }
 
 section.container section.content-container section.main-holder{
 	width: 700px;
-	min-height: 500px;
 	margin: 70px 0 0 50px;
 	/*border: 1px solid white;*/
 	/*display: none;*/
@@ -140,7 +138,6 @@ section.main-holder > figure.img-holder img:first-child{
 
 section.main-holder > article.content-holder{
 	width: 640px;
-	min-height: 340px;
 	/*overflow: hidden;*/
 	margin: 20px 0 0;
 	position: relative;
