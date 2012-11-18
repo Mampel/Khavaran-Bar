@@ -127,6 +127,8 @@ section.main-holder > figure.img-holder img{
 	border: 1px solid #444;
 	border-radius: 10px;
 	opacity: 0;
+	filter: alpha(opacity=0);  /* iE 5-7 */
+	 -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)"; /* iE 8 */
 	position: absolute;
 	top: -50px;
 	left: 0;
@@ -134,6 +136,8 @@ section.main-holder > figure.img-holder img{
 
 section.main-holder > figure.img-holder img:first-child{
 	opacity: 1;
+	filter: alpha(opacity=100);  /* iE 5-7 */
+	 -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)"; /* iE 8 */
 	top: 0;
 }
 
@@ -305,7 +309,7 @@ section.main-holder article.content-holder div.content4 #inquiry_form input#btn_
 section.main-holder article.content-holder div.content4 #inquiry_form input#btn_reset,
 section.main-holder article.content-holder div.content5 #contactus_form input#btn_send  {
 	width : 80px;
-	color : #111;
+	color : #eee;
 	border-radius : 4px; 
 }
 
