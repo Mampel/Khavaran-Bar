@@ -28,7 +28,10 @@ $(function(){
 			},due,'easeOutBack');
 		},delay);
 		delay += step;
-    }).mouseover(function(){
+    }).click(function(){
+		// $(this).addClass('active');
+		// alert('hi');
+	}).mouseover(function(){
 		$(this).animate({
 			left:20
 		},200,'easeOutExpo');
@@ -36,8 +39,6 @@ $(function(){
 		$(this).animate({
 			left:0
 		},500,'easeOutExpo');
-	}).click(function(){
-		// $(this).addClass('active');
 	});
 
 	// setTimeout(function(){
@@ -112,4 +113,16 @@ $(function(){
 		slide(pagenum-1);
 	}
 	
+	// Change Template
+	$('span.blue').click(function(){
+		$('section.background div.backimg').addClass('blue');
+		$('section.background div.backimg').removeClass('red');
+		$('section.main-holder > figure.img-holder img.img1').attr("src","images/home-b.jpg");
+	});
+	$('span.red').click(function(){
+		$('section.background div.backimg').addClass('red');
+		$('section.background div.backimg').removeClass('blue');
+		$('section.main-holder > figure.img-holder img.img1').attr("src","images/home-r.jpg");
+	});
+
 });
