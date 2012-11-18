@@ -127,7 +127,8 @@ section.main-holder > figure.img-holder img{
 	border: 1px solid #444;
 	border-radius: 10px;
 	opacity: 0;
-	 -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+	filter: alpha(opacity=0);  /* iE 5-7 */
+	 -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)"; /* iE 8 */
 	position: absolute;
 	top: -50px;
 	left: 0;
@@ -135,7 +136,8 @@ section.main-holder > figure.img-holder img{
 
 section.main-holder > figure.img-holder img:first-child{
 	opacity: 1;
-	 -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+	filter: alpha(opacity=100);  /* iE 5-7 */
+	 -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)"; /* iE 8 */
 	top: 0;
 }
 
