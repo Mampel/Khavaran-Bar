@@ -40,7 +40,7 @@ section.container div.logo{
 	-o-border-radius: 10px;
 	-ms-border-radius: 10px;
 	-khtml-border-radius: 10px;
-	/*opacity: 0;*/
+	opacity: 0;
 }
 
 section.container div.logo > h1{
@@ -120,7 +120,7 @@ section.container section.content-container section.main-holder{
 	margin: 70px 0 0 50px;
 	/*border: 1px solid white;*/
 	/*display: none;*/
-	/*opacity: 0;*/ /*only for Load Effect*/
+	opacity: 0; /*only for Load Effect*/
 }
 
 section.main-holder > figure.img-holder{
