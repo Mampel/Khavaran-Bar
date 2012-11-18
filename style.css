@@ -59,16 +59,31 @@ section.container section.leftside{
 	left: 0;
 	bottom: 0;
 	width: 200px;
-	/*background-image: url(images/bg_menu.png);*/
 	background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAA9JREFUeNpiYGBgmAkQYAAAngCaoMXLCwAAAABJRU5ErkJggg==');
 	background-repeat: repeat;
 	background-position: left top;
 	border-right: 1px solid #444;
 }
 
+section.container section.leftside div.translate{
+	position: absolute;
+	top: 45px;
+	left: 7px;
+}
+
+section.container section.leftside div.translate span#trans{
+	float: left;
+	font-size: 11px;
+	line-height: 18px;
+	color: #FFF;
+}
+
+section.container section.leftside div.translate .goog-te-gadget-icon{
+	display:none;
+} 
+
 section.container section.leftside > nav{
 	margin: 150px 0 0;
-	/*border: 1px solid red;*/
 }
 
 section.container section.leftside > nav > menu{
@@ -195,7 +210,6 @@ footer{
 }
 
 footer div.template{
-	border: 1px solid black;
 	top: 22px;
 	left: 15px;
 }
@@ -212,6 +226,7 @@ footer div.template span{
 	-o-border-radius: 5px;
 	-ms-border-radius: 5px;
 	-khtml-border-radius: 5px;
+	cursor: pointer;
 }
 
 footer div.template span.blue{
