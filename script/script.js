@@ -91,7 +91,6 @@ $(function(){
 	if(sharPos){
 		loadpage(pageUrl.substr(sharPos));
 		pageUrl = pageUrl.substr(0,sharPos);
-		// alert('pageUrl' + pageUrl);
 	}
 
 	$('section.leftside a').click(function(){
@@ -104,12 +103,8 @@ $(function(){
 	window.onhashchange = function(){
 		loadpage(window.location.hash);
 		pagenum = window.location.hash;
-
-		y = pagenum.indexOf('.');
-		pagenum = pagenum.substr(y-1);
-		pagenum = pagenum.substr(0,1);
-		// alert('hash index:'+pagenum);
-		// alert(x);
+		indx = pagenum.indexOf('.');
+		pagenum = pagenum.substr(indx-1,1);
 		slide(pagenum-1);
 	}
 	
