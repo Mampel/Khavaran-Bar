@@ -9,16 +9,16 @@ $(function(){
 		easeout = 'easeInOutQuad',
 		currentimg = 0;
 		due = 800,
-		delay = 400,
+		delay = 600,
 		step = 300;
 
 	// for Load Effect
 	setTimeout(function(){
 		logo.animate({
 			opacity:1
-		},due,'easeOutBack');
+		},1500,'easeInQuad');
 	},delay); //400
-	delay += 500;
+	delay += 700;
 
 	li.each(function() {
         var that = this;
@@ -41,11 +41,11 @@ $(function(){
 		},500,'easeOutExpo');
 	});
 
-	// setTimeout(function(){
-	// 	content.css('display','block').animate({
-	// 		opacity:1
-	// 	},1400,'easeOutBack');
-	// },(delay+400));
+	setTimeout(function(){
+		content.css('display','block').animate({
+			opacity:1
+		},1400,'easeOutBack');
+	},(delay+700));
 
 
 	// for Change Page with Effect and Change Hash Page
