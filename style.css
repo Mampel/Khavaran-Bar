@@ -224,12 +224,23 @@ section.background div.backimg{
 	left: 0;
 	bottom: 0;
 	right: 0;
-	background-image: url(images/backimg1.jpg);
+	z-index: -2;
+}
+
+section.background div.backimg.blue{
+	background-image: url(images/backimg-b.jpg);
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: cover;
 	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/backimg.jpg',sizingMethod='scale');
-	z-index: -2;
+}
+
+section.background div.backimg.red{
+	background-image: url(images/backimg-r.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/backimg.jpg',sizingMethod='scale');
 }
 
 /********** inquiry form ************/
