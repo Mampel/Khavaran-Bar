@@ -137,8 +137,8 @@ section.container section.content-container section.main-holder{
 }
 
 section.main-holder > figure.img-holder{
-	width: 250px;
-	min-height: 150px;
+	width: 260px;
+	min-height: 160px;
 	position: relative;
 }
 
@@ -167,6 +167,7 @@ section.main-holder > figure.img-holder img:first-child{
 
 section.main-holder > article.content-holder{
 	width: 640px;
+	min-height: 1115px;
 	margin: 20px 0 0;
 	position: relative;
 }
