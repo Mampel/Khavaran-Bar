@@ -341,6 +341,7 @@ section.main-holder article.content-holder div.content5 #contactus_form input {
 	-khtml-border-radius: 4px;
 	color : #fff; 
 	background-color : #222;  
+	border-width: 1px;
 }
 
 section.main-holder article.content-holder div.content4 #inquiry_form input:focus,
@@ -369,7 +370,8 @@ section.main-holder article.content-holder div.content5 #contactus_form textarea
 	-ms-border-radius: 4px;
 	-khtml-border-radius: 4px;
 	color : #fff;
-	background-color : #222;  
+	background-color : #222; 
+	border-width: 1px; 
 }
 
 section.main-holder article.content-holder div.content4 #inquiry_form textarea:focus,
