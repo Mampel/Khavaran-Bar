@@ -116,11 +116,15 @@ $(function(){
 		$('section.background div.backimg').addClass('blue');
 		$('section.background div.backimg').removeClass('red');
 		$('section.main-holder > figure.img-holder img.img1').attr("src","images/home-b.jpg");
+		$('section.main-holder article.content-holder *').addClass('txt-blue');
+		$('section.main-holder article.content-holder *').removeClass('txt-red');
 	});
 	$('span.red').click(function(){
 		$('section.background div.backimg').addClass('red');
 		$('section.background div.backimg').removeClass('blue');
 		$('section.main-holder > figure.img-holder img.img1').attr("src","images/home-r.jpg");
+		$('section.main-holder article.content-holder *').addClass('txt-red');
+		$('section.main-holder article.content-holder *').removeClass('txt-blue');
 	});
 
 });
