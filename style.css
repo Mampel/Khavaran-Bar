@@ -419,7 +419,11 @@ section.main-holder article.content-holder div.content5 div.gmap iframe {
 	-ms-border-radius: 3px;
 	-khtml-border-radius: 3px;
 	opacity : 0.9;
+	filter: alpha(opacity=90);  /* iE 5-7 */
+	 -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=90)"; /* iE 8 */
 }
 section.main-holder article.content-holder div.content5 div.gmap iframe:hover {
 	opacity : 1;
+	filter: alpha(opacity=0);  /* iE 5-7 */
+	 -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)"; /* iE 8 */
 }
