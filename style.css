@@ -125,7 +125,6 @@ section.container section.content-container{
 section.container section.content-container section.main-holder{
 	width: 700px;
 	margin: 70px 0 0 50px;
-	/*display: none;*/
 	opacity: 0; /*only for Load Effect*/
 	filter: alpha(opacity=0);  /* iE 5-7 */
 	 -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)"; /* iE 8 */
