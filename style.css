@@ -42,8 +42,6 @@ section.container div.logo{
 }
 
 section.container div.logo > h1{
-	/*text-indent: 50000px;*/
-	/*white-space: nowrap;*/
 	text-align: center;
 	color: #FFF;
 	margin-top: 25px;
@@ -114,11 +112,9 @@ section.container section.leftside > nav > menu > li > a{
 	-khtml-border-radius: 15px;
 	text-decoration: none;
 	text-transform: uppercase;
-	/*z-index: 1000;*/
 }
 
 section.container section.leftside > nav > menu > li > a:hover{
-	/*background-color: rgba(20,20,20,.5);*/
 	color: #FFF;
 }
 
@@ -129,7 +125,6 @@ section.container section.content-container{
 section.container section.content-container section.main-holder{
 	width: 700px;
 	margin: 70px 0 0 50px;
-	/*border: 1px solid white;*/
 	/*display: none;*/
 	opacity: 0; /*only for Load Effect*/
 	filter: alpha(opacity=0);  /* iE 5-7 */
@@ -257,10 +252,6 @@ footer p.copyright a{
 
 footer p.copyright a:hover{
 	text-decoration: underline;
-}
-
-section.background{
-
 }
 
 section.background div.noise{
