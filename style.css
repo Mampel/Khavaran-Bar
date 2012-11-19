@@ -145,6 +145,7 @@ section.main-holder > figure.img-holder img{
 	position: absolute;
 	top: -50px;
 	left: 0;
+	cursor: pointer;
 }
 
 section.main-holder > figure.img-holder img:first-child{
