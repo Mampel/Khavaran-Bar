@@ -98,6 +98,7 @@ $(function(){
 	$('section.leftside a').click(function(){
 		var url = $(this).attr('href');
 		window.location.href = pageUrl + '#' + url;
+		$("html:not(:animated),body:not(:animated)").animate({scrollTop: 0}, 100 );
 		return false;
 	});
 
