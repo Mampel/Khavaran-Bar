@@ -17,7 +17,7 @@ $(function(){
 		logo.animate({
 			opacity:1
 		},1500,'easeInQuad');
-	},delay); //400
+	},delay);
 	delay += 700;
 
 	li.each(function() {
@@ -28,10 +28,7 @@ $(function(){
 			},due,'easeOutBack');
 		},delay);
 		delay += step;
-    }).click(function(){
-		// $(this).addClass('active');
-		// alert('hi');
-	}).mouseover(function(){
+    }).mouseover(function(){
 		$(this).animate({
 			left:20
 		},200,'easeOutExpo');
@@ -56,23 +53,28 @@ $(function(){
 	var slide = function(n){
 		if(currentimg==n) return;
 		img.eq(currentimg).animate({
-			'top':'50px',//200
+			'top':'50px',
 			'opacity':'0'
 		},300,easeout,function(){
-			$(this).css('top','-50px'); //-280
+			$(this).css({
+				'top':'-50px',
+				'display':'none'
+			}); 
 		});
 
-		img.eq(n).animate({
+		img.eq(n).css({
+			'display':'block'
+		}).animate({
 			'top':'0',
 			'opacity':'1'
 		},900,easein);	
 
 		content_page.eq(currentimg).animate({
-			'top':'-100px',//-400
+			'top':'-100px',
 			'opacity':'0'
 		},300,easeout,function(){
 			$(this).css({
-				'top':'100px', //400
+				'top':'100px',
 				'display':'none'
 			});
 		});
