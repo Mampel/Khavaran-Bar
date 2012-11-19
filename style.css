@@ -132,19 +132,12 @@ section.container section.content-container section.main-holder{
 }
 
 section.main-holder > figure.img-holder{
-	width: 260px;
-	min-height: 160px;
+	width: 250px;
+	min-height: 155px;
 	position: relative;
 }
 
 section.main-holder > figure.img-holder img{
-	border: 5px solid #222;
-	border-radius: 10px;
-	-webkit-border-radius: 10px;
-	-moz-border-radius: 10px;
-	-o-border-radius: 10px;
-	-ms-border-radius: 10px;
-	-khtml-border-radius: 10px;
 	opacity: 0;
 	filter: alpha(opacity=0);  /* iE 5-7 */
 	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)"; /* iE 8 */
@@ -405,7 +398,7 @@ section.main-holder article.content-holder div.content2 p span,
 section.main-holder article.content-holder div.content3 p span,
 section.main-holder article.content-holder div.content4 p span,
 section.main-holder article.content-holder div.content5 p span {
-	font-weight : bold; 
+	font-weight : bold;
 }
 
 section.main-holder article.content-holder div.content5 div.gmap iframe {
