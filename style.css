@@ -332,6 +332,10 @@ section.main-holder article.content-holder div.content5 #contactus_form input {
 	-o-border-radius: 4px;
 	-ms-border-radius: 4px;
 	-khtml-border-radius: 4px;
+	-webkit-transition: all 300ms;
+	-ms-transition: all 300ms;
+	-moz-transition: all 300ms;
+	-o-transition: all 300ms;
 	color : #fff; 
 	background-color : #222;  
 	border-width: 1px;
@@ -362,6 +366,10 @@ section.main-holder article.content-holder div.content5 #contactus_form textarea
 	-o-border-radius: 4px;
 	-ms-border-radius: 4px;
 	-khtml-border-radius: 4px;
+	-webkit-transition: all 300ms;
+	-ms-transition: all 300ms;
+	-moz-transition: all 300ms;
+	-o-transition: all 300ms;
 	color : #fff;
 	background-color : #222; 
 	border-width: 1px; 
