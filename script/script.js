@@ -14,7 +14,7 @@ $(function(){
 
 	// for Load Effect
 	setTimeout(function(){
-		logo.animate({
+		logo.css('display','block').animate({
 			opacity:1
 		},1500,'easeInQuad');
 	},delay);
