@@ -19,7 +19,6 @@ The website for the **Khavaran Bar** Company
 * [CSS3](http://ali.md/css3ref)
 * [1Styles](http://ali.md/1styles)
 * [JavaScript](http://ali.md/wiki/javascript)
-* [Zepto.js](http://ali.md/zepto.js)
 * [jQuery.js](http://ali.md/jquery.js)
 * [html5shiv](http://ali.md/html5shiv)
 
