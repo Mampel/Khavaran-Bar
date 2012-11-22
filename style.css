@@ -424,6 +424,6 @@ section.main-holder article.content-holder div.content5 div.gmap iframe {
 }
 section.main-holder article.content-holder div.content5 div.gmap iframe:hover {
 	opacity : 1;
-	filter: alpha(opacity=0);  /* iE 5-7 */
-	 -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)"; /* iE 8 */
+	filter: alpha(opacity=100);  /* iE 5-7 */
+	 -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)"; /* iE 8 */
 }
