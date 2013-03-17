@@ -123,4 +123,26 @@ $(function(){
 		$('section.main-holder article.content-holder *').addClass('txt-red').removeClass('txt-blue');
 	});
 
-});
+	// Google Map API	
+	var myCenter = new google.maps.LatLng(51.508742,-0.120850);	// latitude and longitude 
+
+	function initialize()
+	{
+	var mapProp = {
+	  center:myCenter,
+	  zoom:5,
+	  mapTypeId:google.maps.MapTypeId.ROADMAP
+	  };
+
+	var map = new google.maps.Map($("gmap")[0],mapProp);
+
+	var marker = new google.maps.Marker({
+	  position:myCenter,
+	  });
+
+	marker.setMap(map);
+	}
+
+	google.maps.event.addDomListener(window, 'load', initialize); 
+
+	});

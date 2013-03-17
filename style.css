@@ -411,7 +411,9 @@ section.main-holder article.content-holder div.content5 p span {
 	font-weight : bold;
 }
 
-section.main-holder article.content-holder div.content5 div.gmap iframe {
+section.main-holder article.content-holder div.content5 div.gmap {
+	width: 300px;
+	height: 250px;
 	border-radius: 3px;
 	-webkit-border-radius: 3px;
 	-moz-border-radius: 3px;
