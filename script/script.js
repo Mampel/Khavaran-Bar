@@ -129,15 +129,14 @@ $(function(){
 	function initialize()
 	{
 	var mapProp = {
-	  center:myCenter,
-	  zoom:5,
-	  mapTypeId:google.maps.MapTypeId.ROADMAP
+	  center : myCenter,
+	  zoom : 11,
+	  mapTypeId : google.maps.MapTypeId.ROADMAP
 	  };
 
-	var map = new google.maps.Map($("gmap")[0],mapProp);
-
+	var map = new google.maps.Map($("div.gmap")[0],mapProp);
 	var marker = new google.maps.Marker({
-	  position:myCenter,
+	  position : myCenter,
 	  });
 
 	marker.setMap(map);
